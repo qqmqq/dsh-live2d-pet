@@ -1,0 +1,8 @@
+# ============================================================================
+# dsh-live2d-pet —— DSH bundle patch
+# 把 Live2D 桌面宠物挂件插入 Web profile 的配置树
+# 安装: dsh plugin --profile web add link:<本目录绝对路径>
+# ============================================================================
+- insert:
+    - id: dsh-live2d-pet
+      name: dsh-live2d-pet

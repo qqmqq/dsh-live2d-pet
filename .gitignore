@@ -1,0 +1,4 @@
+node_modules/
+*.log
+L2D_Extract/
+.DS_Store

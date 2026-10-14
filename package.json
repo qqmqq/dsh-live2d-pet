@@ -1,0 +1,15 @@
+{
+  "name": "dsh-live2d-pet",
+  "version": "0.1.0",
+  "description": "DSH Web 界面右下角的 Live2D 桌面宠物: 用游戏里提取的 kouzhaomei 模型, 支持拖拽吸附/缩放/待机呼吸眨眼, 点击显示 DeepSeek 余额",
+  "keywords": ["dsh", "dsh-plugin", "deepseek-harness", "live2d", "pet", "widget"],
+  "type": "module",
+  "main": "lib/index.js",
+  "files": ["lib", "assets", "cordis.patch.yml", "README.md"],
+  "dsh": { "bundle": { "patch": "./cordis.patch.yml" } },
+  "author": "qqmqq",
+  "repository": { "type": "git", "url": "git+https://github.com/qqmqq/dsh-live2d-pet.git" },
+  "homepage": "https://github.com/qqmqq/dsh-live2d-pet#readme",
+  "bugs": { "url": "https://github.com/qqmqq/dsh-live2d-pet/issues" },
+  "license": "MIT"
+}
